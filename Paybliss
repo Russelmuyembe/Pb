@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PAYBLISS </title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body style="overflow:hidden;
+    background-color: #D1E9FF;
+    top:0;
+    width:50;">
+  <header style="top:0;
+  background-color: #D1E9FF;
+  width=device-width, initial-scale=1.0;
+  height:100;
+  position:fixed;">
+  <center >
+  <div class="p"> <button class="m" id="home" onclick="h()">Home</button><button class="m" id="service" onclick="s()">services</button><button class="m" id="contact" onclick="c()">contact</button><button class="m" id="repayment" onclick="r()">repayment</button></div></center>
+ <center> <input list="lid" placeholder="search" style="background-color: skyblue;
+ width:390"><button id="se-bu" style="background-color:#386BB7;">search</button></center>
+ <datalist id="lid">
+ <option >loan</option>
+ <option >charges</option>
+ <option >branches</option>
+ <option >online banking</option>
+ <option >repayment</option>
+ <option >loan</option>
+ <option >charges</option>
+ <option >branches</option>
+ <option >online banking</option>
+ <option >repayment</option>
+ <option >loan</option>
+ <option >charges</option>
+ <option >branches</option>
+ <option >online banking</option>
+ <option >repayment</option><option >loan</option>
+ <option >charges</option>
+ <option >branches</option>
+ <option >online banking</option>
+ <option >repayment</option><option >loan</option>
+ <option >charges</option>
+ <option >branches</option>
+ <option >online banking</option>
+ <option >repayment</option>
+ </datalist>
+  </header><br>
+  <div id="rhome">
+  <center><h4>your future now</h4></center>
+ <h1><center> <h1><span style="color:red">PAY</span><span style="color:blue">BLISS</span></h1></center></h1><center><h4 style="">Financial services</h4></center>
+  <img src="/storage/emulated/0/Pictures/Polish/Polish_20240114_121025537~2.jpg" width="390" height="300">
+<p>We offer simple (short term) loans to :
+<ul>
+<li> Marketeers,</li>
+<li>Bars </li><button id="more" onclick="more()" style="background-color:#386BB7;
+border:1px solid #D5E9FF">more</button><details id="details"><li> Retail shops,</li>
+<li>Barbershops,</li>
+<li> Salons & Liquor stores e.t.c.......</li></details>
+</ul>
+</p>
+</div>
+
+  <script>
+  var det=document.getElementById("details").style.display="none";
+  function more(){
+      var det=document.getElementById("details").style.display="inline";
+      
+       var mo=document.getElementById("more").style.display="none";
+      
+  }
+  </script>
+  
+  
+  
+  
+  
+
+<style>
+.m{
+    overflow:hidden;
+    background-color: #386BB7;
+    top:0;
+    width:80px;
+    height:20px;
+    display:blocks;
+    text-align:200px; 
+    color:#FFFFFF;
+    border:1px solid #D5E9FF;
+    border-radius:5px; 
+}
+</style>
+<script >
+
+var hh=document.getElementById("rhome");
+var home=document.getElementById("home");
+var service=document.getElementById("service");
+var contact=document.getElementById("contact");
+var repayment=document.getElementById("repayment");
+   function h(){
+ 
+ var hh=document.getElementById("rhome").style.display="inline";      
+var home=document.getElementById("home"). style.backgroundColor="#386BB7";;
+var service=document.getElementById("service"). style.backgroundColor="#237CD2";;
+var contact=document.getElementById("contact"). style.backgroundColor="#237CD2";;
+var repayment=document.getElementById("repayment"). style.backgroundColor="#237CD2";
+   }
+
+
+
+
+
+function r(){
+    
+        var hh=document.getElementById("rhome").style.display="none"; 
+var home=document.getElementById("home"). style.backgroundColor="#237CD2";;
+var service=document.getElementById("service"). style.backgroundColor="#237CD2";;
+var contact=document.getElementById("contact"). style.backgroundColor="#237CD2";;
+var repayment=document.getElementById("repayment"). style.backgroundColor="#386BB7";
+   }
+
+
+
+
+
+
+function s(){
+       
+        var hh=document.getElementById("rhome").style.display="none"; 
+var home=document.getElementById("home"). style.backgroundColor="#237CD2";;
+var service=document.getElementById("service"). style.backgroundColor="#386BB7";;
+var contact=document.getElementById("contact"). style.backgroundColor="#237CD2";;
+var repayment=document.getElementById("repayment"). style.backgroundColor="#237CD2";
+   }
+
+
+
+
+
+
+function c(){
+    
+        var hh=document.getElementById("rhome").style.display="none"; 
+var home=document.getElementById("home"). style.backgroundColor="#237CD2";;
+var service=document.getElementById("service"). style.backgroundColor="#237CD2";;
+var contact=document.getElementById("contact"). style.backgroundColor="#386BB7";;
+var repayment=document.getElementById("repayment"). style.backgroundColor="#237CD2";
+   }
+
+
+</script>
+    </body>
+
+</html>
+    
+    
